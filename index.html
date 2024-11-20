@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1{
+            border: 2px solid black;
+            width: 350px;
+            height: 380px;
+            background-color: red;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-style:italic ;
+        }
+        .d11{
+            border: 3px solid black;
+        }
+        .d12{
+            border: 3px solid black;
+        }
+        .d13{
+            border: 3px solid black;
+        }
+        .d2{
+            border: 2px solid black;
+            width: 350px;
+            height: 370px;
+            margin-left: 370px;
+            margin-top: -380px;
+            background-color:gray;
+        }
+        #i1{
+            width: 350px;
+           
+        }
+        .d21{
+            border: 3px solid black;
+        }
+        .d22{
+            border: 3px solid black;
+        }
+        .d23{
+            border: 3px solid black;
+        }
+        #l1{
+            display: none;
+        }
+        #l2{
+            display: none;
+        }
+        #l3{
+            display: none;
+        }
+        .d11:hover~#l1{
+            display: block;
+            background-color: teal;
+        }
+        .d12:hover~#l2{
+            display: block;
+            background-color: teal;
+        }
+        .d13:hover~#l3{
+            display: block;
+            background-color: teal;
+        }
+        #i2{
+            background-color: aliceblue;
+            width: 350px;
+        }
+        #l11{
+            display: none;
+        }
+        #l12{
+            display: none;
+        }
+        #l13{
+            display: none;
+        }
+        .d21:hover~#l11{
+            display: block;
+            background-color: lightcoral;
+        }
+        .d22:hover~#l12{
+            display: block;
+            background-color: lightcoral;
+        }
+        .d23:hover~#l13{
+            display: block;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <img id="i2" src="https://files.porsche.com/filestore/image/multimedia/none/992-gt3-rs-modelexplorer/normal/c310eed8-1a15-11ed-80f5-005056bbdc38;sS;twebp/porsche-normal.webp"></a>
+        <h1>Porsche 911 GT</h1>
+        <div class="d11">Power Unit</div>
+        <div class="d12">Perfomance</div>
+        <div class="d13">Consumption/Emission WLTP</div>
+        <ul id="l1"><li>Number of cylinders - 6</li>
+            <li>Bore - 102.0 mm</li>
+            <li>Stroke - 81.5 mm</li>
+            <li>Displacement - 3,996 cm³</li>
+            <li>Power (kW) - 375 kW</li>
+            <li>Power (PS) - 510 PS</li>
+            <li>Maximum engine speed - 9,000 1/min</li>
+            <li>Max. torque - 450 Nm</li>
+            <li> Max. output per liter (kW/l) - 93.00 kW/l</li>
+            <li> Max. output per liter (PS/l) - 127.00 PS/l</li>
+        </ul>
+    <ul  id="l2"><li>Top speed (7-speed Porsche Doppelkupplung (PDK)) - 311 km/h</li>
+    <li>Top speed (6-speed GT sports transmission) - 313 km/h</li>
+    <li>Acceleration 0 - 100 km/h (7-speed Porsche Doppelkupplung (PDK)) - 3.4 s</li>
+    <li>Acceleration 0 - 100 km/h (6-speed GT sports transmission) - 3.9 s</li>
+    <li>Acceleration 0 - 160 km/h (7-speed Porsche Doppelkupplung (PDK)) - 7.0 s</li>
+    <li>Acceleration 0 - 160 km/h (6-speed GT sports transmission) - 7.9 s</li>
+    <li>Acceleration 0 - 200 km/h (6-speed GT sports transmission) - 11.9 s</li>
+    </ul>
+    <ul id="l3">
+        <li>Fuel consumption urban (7-speed Porsche Doppelkupplung (PDK)) - 22.4 l/100 km</li>
+        <li>Fuel consumption urban (6-speed GT sports transmission) - 22.8 l/100 km</li>
+        <li>Fuel consumption suburb (7-speed Porsche Doppelkupplung (PDK)) -12.8 l/100 km</li>
+        <li>Fuel consumption suburb (6-speed GT sports transmission) - 13.1 l/100 km</li>
+        <li>Fuel consumption extra urban (7-speed Porsche Doppelkupplung (PDK)) - 11.8 l/100 km</li>
+    </ul></div>
+    <div class="d2">
+        <img id="i1" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/aventador/2023/model_chooser/aventador_ultimae_m.jpg" alt="">
+        <h1>Lamborghini Aventador</h1>
+        <div class="d21">Engine & Transmission</div>
+        <div class="d22">Fuel & Perfomance</div>
+        <div class="d23">Suspension,Steering,Brakes</div>
+
+
+        <ul id="l11">
+            <li>Engine Type  - V12,60°,MPI Petrol Engine</li>
+            <li>Displacement - 6498 cc</li>
+            <li>Max Power - 759.01bhp@8500rpm</li>
+            <li>Max Torque - 720Nm@6750rpm</li>
+            <li>No. of Cylinders - 12</li>
+            <li>Transmission Type - Automatic</li>
+            <li>Gearbox  - 7 Speed</li>
+            <li> Drive Type  - AWD</li>
+        </ul>
+
+        <ul id="l12">
+            <li>Fuel Type - Petrol</li>
+            <li>Petrol Fuel Tank Capacity -  90 Litres</li>
+            <li>Emission Norm ComplianceBS - VI</li>
+            <li>Top Speed  - 355 kmph</li>
+        </ul>
+
+        <ul id="l13">
+            <li>Front Suspension - Push rod magneto-rheologic active with horizontal dampers</li>
+            <li>Rear SuspensionPush rod magneto-rheologic active with horizontal dampers</li>
+            <li>Steering Type - Hydraulic</li>
+            <li>Steering Column - Collapsible Steering</li>
+            <li>Steering Gear Type - Rack & Pinion</li>
+            <li>Turning Radius - 6.25 metres</li>
+            <li>Front Brake Type - Carbon Ceramic Brake</li>
+            <li>Rear Brake TypeCarbon Ceramic Brake</li>
+            <li>Acceleration - 2.8 Seconds</li>
+            <li>Braking (100-0kmph)30 m</li>
+            <li>0-100kmph2.8 Seconds</li>
+        </ul>
+    </div>
+</body>
+</html>
